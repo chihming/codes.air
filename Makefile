@@ -4,7 +4,7 @@ UTIL_OBJECTS = util random hash file_graph
 SAMPLER_OBJECTS = alias_methods vc_sampler edge_sampler
 MAPPER_OBJECTS = lookup_mapper
 OPTIMIZER_OBJECTS = pair_optimizer triplet_optimizer quadruple_optimizer
-HUB_CLIS = mf implicit_mf bpr line hpe deepwalk walklets app cse transrec hoprec skew_opt textgcn kgcf miso transrec_ex i2i tpr tpr2 mmf comp miso3
+HUB_CLIS = air
 LIBS= -L ./ -lsmore
 
 all: $(UTIL_OBJECTS) $(SAMPLER_OBJECTS) $(MAPPER_OBJECTS) $(OPTIMIZER_OBJECTS) $(HUB_CLIS)
